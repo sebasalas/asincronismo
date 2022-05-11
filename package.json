@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ssalasm/asincronismo/issues"
   },
-  "homepage": "https://github.com/ssalasm/asincronismo#readme"
+  "homepage": "https://github.com/ssalasm/asincronismo#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
