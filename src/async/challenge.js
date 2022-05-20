@@ -1,6 +1,14 @@
 const fetchData = require('../utils/fetchData');
 const API = 'https://rickandmortyapi.com/api/character/';
 
+/**
+ * We're using the async keyword to declare a function that returns a promise. 
+ * 
+ * The await keyword is used to wait for a Promise to resolve or reject. 
+ * 
+ * The await keyword can only be used inside an async function
+ * @param url_api - The URL of the API you want to fetch data from.
+ */
 const anotherFuncion = async (url_api) => {
     try {
         const data = await fetchData(url_api)
